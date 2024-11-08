@@ -1,0 +1,93 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    color: #000000c2;
+    width: 100%;
+  }
+  
+  .app{
+   text-align: center;
+  background-image: url(/public/1000_F_857634097_uH7YXriGfLS4LFK0jYLWCCHby40VNSxZ.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  
+  }
+  
+  
+  h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+    color: #000000a1;
+  
+  }
+  h2{
+    margin-block: 10px;
+  }
+  
+  input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000;
+    width: 250px;
+    outline: none;
+    background-color: rgba(255, 251, 246, 0.452);
+    font-size: 15px;
+ 
+    font-weight: 700;
+  }
+
+  input:focus{
+    background-color: rgba(255, 251, 246, 0.644);
+    outline: none;
+  }
+
+
+input::placeholder{
+    color: #000000d5;
+
+}
+
+  button{
+    padding: 10px 18px ;
+    border-radius: 20px;
+    background-color: rgba(255, 251, 246, 0.582);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #000000c7;
+  }
+
+  button:hover{
+    background-color: rgba(255, 251, 246, 0.712);
+    cursor: pointer;
+  
+  }
+
+
+  .container{
+    border: 1px solid rgba(161, 133, 133, 0.397);
+    padding: 20px;
+    
+    background-color: #0000004d;
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+   
+
+  
+
+
+    
+  }
